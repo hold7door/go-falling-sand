@@ -15,11 +15,6 @@ const (
 	grainWidth   = 10
 )
 
-// Dot represents a sand dot
-type Dot struct {
-	x, y float64
-}
-
 type Game struct {
 	gridCols int
 	gridRows int
